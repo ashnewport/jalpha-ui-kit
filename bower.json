@@ -1,0 +1,6 @@
+{
+  "name": "jalpha-ui-kit",
+  "dependencies": {
+    "jquery": "~2.2.3"
+  }
+}

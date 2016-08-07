@@ -1,0 +1,34 @@
+assets:
+  sources:
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendor/
+    - _lib/gov-au-ui-kit
+
+baseurl: /
+
+exclude:
+  - .bowerrc
+  - .travis.yml
+  - bin/*
+  - bower.json
+  - circle.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - lib/
+
+ga_analytics: UA-XXXXXXXX-X
+
+gems:
+  - jekyll-assets
+  - jekyll-sitemap
+
+name: jalpha-ui-kit
+
+permalink: pretty
+
+url: # add site url
